@@ -7,24 +7,21 @@
     <title>Sritam Mukherjee Portfolio</title>
 
     <!-- Bootstrap 5 CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> 
-    
-    <!-- Custom CSS (Optional) -->
-    <link rel="stylesheet" href="css/style.css">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Inline CSS -->
     <style>
         body {
             background-color: #f8f9fa;
         }
 
-        .banner img {
-            width: 100%;
-            height: auto;
-        }
-
         .about-section {
             background-color: #e9ecef;
             padding: 50px;
+        }
+
+        .about-section .container {
+            max-width: 90%; /* Increased width */
         }
 
         .work-section {
@@ -41,19 +38,13 @@
 
 <body>
 
-<!-- Banner Section -->
-<div class="banner text-center" style="background-color: #343a40; color: white; padding: 40px 0;">
-    <h1 style="margin: 0; font-size: 2.5rem;">Sritam Mukherjee</h1>
-    <p style="margin: 0; font-size: 1.2rem;">Content Writing and Design</p>
-</div>
-
-  <!-- About Me Section -->
-<section class="about-section" style="background-color: #e9ecef; padding: 50px; margin: 0;">
-    <div class="container" style="width: 100%; padding: 0;">
-        <h2>About Me</h2>
-        <p>Hello! I'm Sritam Mukherjee, a professional content writer and aspiring AI researcher. I specialize in blog writing, article writing, and more.</p>
-    </div>
-</section>
+    <!-- About Me Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Sritam Mukherjee, a professional content writer and aspiring AI researcher. I specialize in blog writing, article writing, and more.</p>
+        </div>
+    </section>
 
     <!-- My Work Section -->
     <section class="work-section">
@@ -64,7 +55,6 @@
                     <h3>Article Writing</h3>
                     <p>I write insightful, engaging articles on various topics.</p>
                     <a href="https://blog.ipleaders.in/leveraging-artificial-intelligence-for-leadership/" target="_blank">Read Article</a>
-                    <a href="https://blog.ipleaders.in/your-money-your-life-your-content-a-guide-to-googles-e-e-a-t-for-ymyl-websites/" target="_blank">Read Article</a>
                 </div>
                 <div class="col-md-4">
                     <h3>Blog Writing</h3>
@@ -73,8 +63,8 @@
                 </div>
                 <div class="col-md-4">
                     <h3>Designs and Infographics</h3>
-                    <p>Clear and visually appealing designs and infographics for complex information.</p>
-                    <a href="https://sites.google.com/view/sritammukherjee-contentwriter/home" target="_blank">Explore Designs and Infographics</a>
+                    <p>Clear and visually appealing infographics for complex information.</p>
+                    <a href="https://sites.google.com/view/sritammukherjee-contentwriter/home" target="_blank">Explore Designs</a>
                 </div>
             </div>
         </div>
@@ -85,21 +75,4 @@
         <div class="container text-center">
             <h2>Contact Me</h2>
             <p>Feel free to reach out through my LinkedIn profile or directly using the contact details below:</p>
-            <p><strong>Phone:</strong> +91-9051800921</p>
-            <p><strong>Email 1:</strong> sritam.mukherjee6@gmail.com</p>
-            <p><strong>Email 2:</strong> writersritam101@gmail.com</p>
-            <a href="https://www.linkedin.com/in/sritam-mukherjee" class="btn btn-primary">LinkedIn Profile</a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center bg-dark text-light py-3">
-        <p>© 2024 Sritam Mukherjee - Portfolio</p>
-    </footer>
-
-    <!-- Bootstrap 5 JS CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>
+            <p><strong>Phone:</strong> +
